@@ -6,4 +6,3 @@
 
 ### 연락처
 - email : fghn1238@gmail.com
-안녕!
