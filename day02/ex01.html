@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="counter-output" >counter : 0</h1>
+    <button id="btn-inc" > Inc </button>
+    <button id="btn-dec" > Dec </button>
+
+    <script>
+        var counteroutput = document.getElementById("counter-output")
+        var btnInc = document.getElementById("btn-inc");
+        var counter = 0 //변수 선언앞에는 var을 사용해줌
+        var btnDec = document.getElementById("btn-dec")
+
+        btnInc.addEventListener('click',()=> {
+            console.log('click test' + counter)
+            counter = counter + 1 //오른쪽에 있는 걸 왼쪽에 넣어라(대입연산자)
+            counteroutput.innerText = "counter : " + counter
+
+        })
+
+        btnDec.addEventListener('click',()=> {
+            console.log('click test' + counter)
+            counter = counter - 1 //오른쪽에 있는 걸 왼쪽에 넣어라(대입연산자)
+            counteroutput.innerText = "counter : " + counter
+
+        })
+
+
+
+    </script>
+    
+</body>
+</html>
