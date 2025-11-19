@@ -5,12 +5,8 @@ body {
     padding: 0px;
     color: white;
     font-family: 'RoundedFixedays';
-
-    align-items: center;
     flex-direction: column;
-
-    height: 100vh;
-    justify-content: center;
+    height: 100vh; /*화면 높이 채우기*/
 }
 
 @font-face {
@@ -20,20 +16,35 @@ body {
     font-display: swap;
 }
 
+header {
+    display: flex;
+    padding: 16px;
+    /*background-color: yellow;*/
+    /*color: black;*/
+    justify-content: flex-end;
+}
 
-.big-text {
+footer {
+    display: flex;
+    padding: 16px;
+    /*background-color: black;*/
+    /*color:white;*/
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
     font-size: 64px;
-    line-height: 2.2; /* 줄 간격을 더 넓게 */
 }
 
-.mid-text {
+.menu-item {
     font-size: 32px;
-    line-height: 2.2; /* 줄 간격을 더 넓게 */
-}
-
-
-.small-text {
-    font-size: 8px;
 }
 
 .top-right {
