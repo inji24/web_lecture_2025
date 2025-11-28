@@ -73,7 +73,7 @@ const characters = {
     { name: "이사기", img: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMDhfMjI4%2FMDAxNjc4Mjc2ODk2NDg4.ZQBIqYEtGPV35zfXZe7Y3QpmgkyEi-pE8nF-Y-DxPMYg.d-KQ_iVoDq44CyPcfcZgRijIW04GVeYTAgCnI0Pz-A4g.JPEG.qm61633%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E51.jpg&type=sc960_832" },
     { name: "바치라", img: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAyMDFfMjg0%2FMDAxNzM4NDE5MTQyOTAz.CJRI-WSVebNskRVtRcWAnGMu2K_uZ2DVrQB48rNGesUg.mO6iaQYTUFrq3by4Nl8Y3pFr8XlmUDOePOgAC3AL2psg.JPEG%2FIMG_3779.JPG&type=sc960_832" },
   ],
-      "사이버펑크:엣지러너": [
+      "사이버펑크: 엣지러너": [
     { name: "루시", img: "https://i.pinimg.com/736x/15/32/58/153258e920f5df9a7a0bbb5a5da08b63.jpg" },
     { name: "데이비드", img: "https://i.pinimg.com/736x/9d/e2/81/9de2812502e288f54edfdf7e985a90a4.jpg" },
   ],
