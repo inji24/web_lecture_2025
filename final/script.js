@@ -234,7 +234,7 @@ const characters = {
     { name: "크라피카", img: "https://search.pstatic.net/common?type=n&size=234x312&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fkeypage%2Fimage%2Fdss%2F60%2F94%2F32%2F99%2F60_2943299_main_image_new_1441423244148.jpg" },
     { name: "히소카", img: "https://search.pstatic.net/common?type=n&size=234x312&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fkeypage%2Fimage%2Fdss%2F60%2F94%2F45%2F08%2F60_2944508_main_image_new_1441423663896.jpg" },
   ],
-     "디지몬 어드벤쳐": [
+     "디지몬 어드벤처": [
     { name: "최산해", img: "https://search.pstatic.net/common?type=n&size=234x312&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fkeypage%2Fimage%2Fdss%2F60%2F71%2F69%2F84%2F60_716984_main_image_new_1438675055099.jpg" },
     { name: "홍예지", img: "https://search.pstatic.net/common?type=n&size=234x312&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fkeypage%2Fimage%2Fdss%2F60%2F71%2F69%2F85%2F60_716985_main_image_new_1438675087132.jpg" },
     { name: "이재하", img: "https://search.pstatic.net/common?type=n&size=234x312&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fkeypage%2Fimage%2Fdss%2F60%2F71%2F69%2F86%2F60_716986_main_image_new_1438675121372.jpg" },
