@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "web_lecture_2025",
+			"path": "../.."
+		},
+		{
+			"name": "finalproject",
+			"path": "../../../finalproject"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "finalproject"
+	}
+}
