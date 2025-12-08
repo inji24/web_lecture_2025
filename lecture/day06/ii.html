@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>열차표 예약</title>
+</head>
+<body>
+    <h1>열차표 예약</h1>
+
+    <label for="name">이름:</label>
+    <input type="text" id="name"><br><br>
+
+    <label for="seats">좌석 수:</label>
+    <input type="number" id="seats"><br><br>
+
+    <button id="reserveBtn">예약하기</button>
+
+    <h2>예약 정보</h2>
+    <div id="reservationInfo"></div>
+
+    <script>
+        const nameInput = document.getElementById("name");
+        const seatsInput = document.getElementById("seats");
+        const reserveBtn = document.getElementById("reserveBtn");
+        const reservationInfo = document.getElementById("reservationInfo");
+
+        reserveBtn.addEventListener("click", function() {
+            const name = nameInput.value;
+            const seats = seatsInput.value;
+
+            if(name === "" || seats === "") {
+                reservationInfo.textContent = "이름과 좌석 수를 모두 입력해주세요.";
+            } else {
+                reservationInfo.textContent = `${name}님, ${seats}석 예약이 완료되었습니다.`;
+            }
+        });
+    </script>
+</body>
+</html>

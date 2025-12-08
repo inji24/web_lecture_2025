@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1> Radio Button Sample</h1>
+    <div>
+    <input type="radio" name="group-1" value="사과" checked />사과
+    </div>
+    <div>
+    <input type="radio" name="group-1" value="바나나"/>바나나
+    </div>
+    <div>
+    <input type="radio" name="group-1" value="포도"/>포도
+    </div>
+
+    <button id="but-select-1"> 확인 </button>
+    <p>
+        결과 : <span id="ouput-result-1"></span>
+    </p>
+
+
+    <div>
+    <input type="radio" name="group-2" value="블랙핑크" checked />블랙핑크
+    </div>
+    <div>
+    <input type="radio" name="group-2" value="엑소"/>엑소
+    </div>
+    <div>
+    <input type="radio" name="group-2" value="빅뱅"/>빅뱅
+    </div>
+    
+    <button id="but-select-2"> 확인 </button>
+    <p>
+        결과 : <span id="ouput-result-2"></span>
+    </p>
+
+    <script>
+        // 첫 번째 그룹
+        var btnSelect1 = document.getElementById("but-select-1")
+        var outputResult1 = document.getElementById("ouput-result-1")
+
+        btnSelect1.addEventListener('click', ()=> {
+            var selectItem = document.querySelector("input[name=group-1]:checked")
+            outputResult1.innerText = 'select : ' + selectItem.value
+        })
+
+        // 두 번째 그룹
+        var btnSelect2 = document.getElementById("but-select-2")
+        var outputResult2 = document.getElementById("ouput-result-2")
+
+        btnSelect2.addEventListener('click', ()=> {
+            var selectItem = document.querySelector("input[name=group-2]:checked")
+            outputResult2.innerText = 'select : ' + selectItem.value
+        })
+    </script>
+
+</body>
+</html>

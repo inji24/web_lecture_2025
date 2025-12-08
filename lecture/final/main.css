@@ -1,0 +1,10 @@
+ body {
+            display: flex;
+            justify-content: center; /* center alignment */
+            align-items: center; /* center alignment */
+            flex-direction: column; /* vertical arrangement */
+
+            height: 100vh; /* full viewport height (important for centering) */
+            margin: 0px;
+            padding: 0px;
+ }

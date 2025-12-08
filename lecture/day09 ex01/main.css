@@ -1,0 +1,45 @@
+body {
+    background-color: blue;
+    color: white;
+}
+
+.box-1 {
+    display: flex;
+    width: 128px;
+    height: 64px;
+    background-color: black;
+    color: green;
+    justify-content: flex-start;
+    border: 1px solid white;
+}
+
+.box-2 {
+    display: flex;
+    width: 128px;
+    height: 64px;
+    background-color: black;
+    color: green;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.box-3 {
+    display: flex;
+    width: 128px;
+    height: 64px;
+    background-color: black;
+    color: green;
+    border: 1px solid white;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+/*추가: 박스 배치용 컨테이너 */
+.container {
+  display: flex;
+  flex-wrap: wrap;           /* 3칸씩 줄바꿈 */
+  justify-content: flex-start; /* 왼쪽 정렬 */
+  gap: 10px;                 /* 박스 사이 간격 (선택사항) */
+  width: 420px;              /* 한 줄에 3개 들어가게 폭 제한 (선택사항) */
+}
