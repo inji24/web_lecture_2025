@@ -5,7 +5,7 @@
             align-items: center; /* center alignment */
             flex-direction: column; /* vertical arrangement */
 
-            height: 300vh; /* full viewport height (important for centering) */
+            height: 100vh; /* full viewport height (important for centering) */
             margin: 0px;
             padding: 0px; 
  }
